@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity() {
         val dotb: Button =findViewById(R.id.dot)
 
 
+        zerob.setOnClickListener()
+        {
+            etextb.setText(etextb.text.toString() + "0")
+        }
        oneb.setOnClickListener()
        {
            etextb.setText(etextb.text.toString() + "1")
